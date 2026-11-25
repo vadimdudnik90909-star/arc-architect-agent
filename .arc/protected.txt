@@ -1,0 +1,7 @@
+# Канон и секреты защищены во всех фазах.
+# Дополнительные пути целевого проекта задаёт человек до внедрения.
+*/01_agent_architect_audit.md
+*/02_agent_architect_implement.md
+*/.env
+*/.env.*
+*/Initial_Info/*

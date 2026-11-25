@@ -1,0 +1,19 @@
+{
+  "_comment": "Перед внедрением заполнить target_repo и команду тестов цели.",
+  "target_repo": "[ЗАПОЛНИТЬ]",
+  "steps": [
+    {
+      "name": "principles-wired",
+      "type": "command",
+      "cwd": ".",
+      "command": "python scripts/check_principles_wired.py",
+      "expect_exit": 0
+    },
+    {
+      "name": "target-tests",
+      "type": "command",
+      "command": "[ЗАПОЛНИТЬ: команда тестов целевого проекта]",
+      "expect_exit": 0
+    }
+  ]
+}
